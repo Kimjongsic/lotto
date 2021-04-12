@@ -1,0 +1,30 @@
+<div>
+	<h1 class="title">
+		<span>LUCKY</span><span>L</span><span>o</span><span>t</span><span>t</span><span>o</span
+		><span>GET !</span>
+	</h1>
+</div>
+<div style="text-align: center;">
+	<div class="balls">
+		<p>
+			<span class="ball_645 lrg <%= @color[0] %>"><%= @lotto[0] %></span>
+			<span class="ball_645 lrg <%= @color[1] %>"><%= @lotto[1] %></span>
+			<span class="ball_645 lrg <%= @color[2] %>"><%= @lotto[2] %></span>
+			<span class="ball_645 lrg <%= @color[3] %>"><%= @lotto[3] %></span>
+			<span class="ball_645 lrg <%= @color[4] %>"><%= @lotto[4] %></span>
+			<span class="ball_645 lrg <%= @color[5] %>"><%= @lotto[5] %></span>
+		</p>
+	</div>
+</div>
+<div class="count" style="text-align: center;">
+	<div>
+		짝수 개수 : <%= @evencount %> 개
+		<br />
+		홀수 개수 : <%= @oddcount %> 개
+	</div>
+</div>
+<div class="onemore" style="text-align: center;" onClick="window.location.reload();">
+	<button type="button">
+		ONCE MORE
+	</button>
+</div>

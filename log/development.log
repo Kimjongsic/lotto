@@ -1,0 +1,1681 @@
+Started GET "/" for 172.17.0.1 at 2021-04-12 01:18:14 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 70.0ms | Allocations: 473)
+Completed 200 OK in 107ms (Views: 76.6ms | ActiveRecord: 0.0ms | Allocations: 2938)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:18:18 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/workspace/lotto/app/controllers/lotto_controller.rb:9: syntax error, unexpected '}', expecting =>
+...otto = {@evenlooto + @oddlotto}.sort
+...                              ^
+/workspace/lotto/app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+			elsif @lotto[i] >= 10 && < 20
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+			elsif @lotto[i] >= 20 && < 30
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+			elsif @lotto[i] >= 30 && < 40
+			                         ^):
+  
+app/controllers/lotto_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:9: syntax error, unexpected '}', expecting =>
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:18:32 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/workspace/lotto/app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+			elsif @lotto[i] >= 10 && < 20
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+			elsif @lotto[i] >= 20 && < 30
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+			elsif @lotto[i] >= 30 && < 40
+			                         ^):
+  
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:18:56 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/workspace/lotto/app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+			elsif @lotto[i] >= 10 && < 20
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+			elsif @lotto[i] >= 20 && < 30
+			                         ^
+/workspace/lotto/app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+			elsif @lotto[i] >= 30 && < 40
+			                         ^):
+  
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:14: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:16: syntax error, unexpected '<'
+app/controllers/lotto_controller.rb:18: syntax error, unexpected '<'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:19:33 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'inedx' could not be found for LottoController):
+  
+actionpack (6.0.3.2) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:20:22 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 673)
+
+
+  
+TypeError (no implicit conversion of Range into Integer):
+  
+app/controllers/lotto_controller.rb:7:in `sample'
+app/controllers/lotto_controller.rb:7:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:21:19 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+  
+TypeError (no implicit conversion of Range into Integer):
+  
+app/controllers/lotto_controller.rb:7:in `sample'
+app/controllers/lotto_controller.rb:7:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:23:00 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+  
+TypeError (no implicit conversion of Range into Integer):
+  
+app/controllers/lotto_controller.rb:7:in `sample'
+app/controllers/lotto_controller.rb:7:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:24:12 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+  
+TypeError (no implicit conversion of Range into Integer):
+  
+app/controllers/lotto_controller.rb:7:in `sample'
+app/controllers/lotto_controller.rb:7:in `index'
+Started GET "/" for 172.17.0.1 at 2021-04-12 01:27:59 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.6ms | Allocations: 308)
+Completed 200 OK in 25ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 1910)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:28:02 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 703)
+
+
+  
+TypeError (no implicit conversion of Range into Integer):
+  
+app/controllers/lotto_controller.rb:7:in `sample'
+app/controllers/lotto_controller.rb:7:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:30:25 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/lotto_controller.rb:9:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:30:48 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 656)
+
+
+  
+ArgumentError (comparison of NilClass with Array failed):
+  
+app/controllers/lotto_controller.rb:10:in `sort'
+app/controllers/lotto_controller.rb:10:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:33:56 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 617)
+
+
+  
+ArgumentError (comparison of NilClass with 45 failed):
+  
+app/controllers/lotto_controller.rb:10:in `sort'
+app/controllers/lotto_controller.rb:10:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:34:38 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 619)
+
+
+  
+ArgumentError (comparison of NilClass with 1 failed):
+  
+app/controllers/lotto_controller.rb:10:in `sort'
+app/controllers/lotto_controller.rb:10:in `index'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:35:04 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 260)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/lotto/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 16272ms
+Built at: 2021-04-12 1:35:30 ├F10: AM┤
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 25503ms (Views: 25501.1ms | ActiveRecord: 0.0ms | Allocations: 17780)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:35:54 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 22)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4169)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:39:06 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.0ms | Allocations: 5171)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:50:51 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (55.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms | Allocations: 4892)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...41, 56, 0, .8)}": expected "}", was ""
+        on line 9:83 of app/assets/stylesheets/lotto.scss
+>> t-shadow: 0px 0px 3px rgba(41, 56, 0, .8)}
+
+   ------------------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:9
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:51:59 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 36.1ms | Allocations: 25)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 4955)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...41, 56, 0, .8)}": expected "}", was ""
+        on line 10:83 of app/assets/stylesheets/lotto.scss
+>> t-shadow: 0px 0px 3px rgba(41, 56, 0, .8)}
+
+   ------------------------------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:10
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:54:35 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 139ms (Views: 137.9ms | ActiveRecord: 0.0ms | Allocations: 11174)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:58:27 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 5217)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 01:59:14 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 158ms (Views: 117.3ms | ActiveRecord: 0.0ms | Allocations: 12564)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:00:03 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 81.5ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 185ms (Views: 184.6ms | ActiveRecord: 0.0ms | Allocations: 11558)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:27 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms | Allocations: 11555)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:34 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:35 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 4051)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:36 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4047)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:37 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4043)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:03:37 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 25)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 4059)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:06:40 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4183)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:08:35 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 143ms (Views: 141.7ms | ActiveRecord: 0.0ms | Allocations: 11570)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:08:45 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 134ms (Views: 104.6ms | ActiveRecord: 0.0ms | Allocations: 11942)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:10:58 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 164ms (Views: 115.1ms | ActiveRecord: 0.0ms | Allocations: 12000)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:11:27 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 212ms (Views: 211.4ms | ActiveRecord: 0.0ms | Allocations: 11573)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:13:13 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5245)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:15:59 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 5242)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:16:07 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms | Allocations: 5223)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:17:22 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 303)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 5240)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:17:36 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 5241)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:18:03 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 305)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms | Allocations: 5234)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:18:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.0ms | Allocations: 5235)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:18:59 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.0ms | Allocations: 11576)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:20:03 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 11577)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:20:45 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 11584)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:21:14 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 52.6ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 157ms (Views: 102.3ms | ActiveRecord: 0.0ms | Allocations: 11591)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:21:22 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.0ms | Allocations: 12041)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:21:36 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms | Allocations: 11586)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:21:57 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 69.8ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 175ms (Views: 173.8ms | ActiveRecord: 0.0ms | Allocations: 11590)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:22:06 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.0ms | Allocations: 11588)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:25:24 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms | Allocations: 5252)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:25:52 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5244)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:27:39 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:28:32 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 138.8ms | ActiveRecord: 0.0ms | Allocations: 12466)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:29:20 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 5286)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:30:06 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 131ms (Views: 130.1ms | ActiveRecord: 0.0ms | Allocations: 11599)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:30:44 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms | Allocations: 12017)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:39:53 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 5228)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:39:57 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 79ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 4064)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:39:58 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 4047)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:39:59 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4045)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:40:00 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4057)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:40:00 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 25.4ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 4053)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:48:10 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (39.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 12063)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:48:57 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 139.4ms | ActiveRecord: 0.0ms | Allocations: 12030)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:49:35 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms | Allocations: 11608)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:49:48 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 145ms (Views: 105.8ms | ActiveRecord: 0.0ms | Allocations: 11611)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:50:01 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.0ms | Allocations: 12055)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:50:33 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 95.0ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 197ms (Views: 196.3ms | ActiveRecord: 0.0ms | Allocations: 12021)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:50:50 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms | Allocations: 11989)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:51:08 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 12022)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:51:14 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 12486)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:51:48 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms | Allocations: 12052)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:52:01 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 50.8ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.0ms | Allocations: 12058)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:52:53 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 37.9ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 139.7ms | ActiveRecord: 0.0ms | Allocations: 13333)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:53:00 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.0ms | Allocations: 12016)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:56:04 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 5263)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected 1 selector or at-rule, was ".onemore button: ho"
+        on line 71:2 of app/assets/stylesheets/lotto.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:71
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:56:22 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.0ms | Allocations: 5268)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected 1 selector or at-rule, was ".onemore button: ho"
+        on line 71:2 of app/assets/stylesheets/lotto.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:71
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:56:46 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.0ms | Allocations: 4094)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected 1 selector or at-rule, was ".onemore button: ho"
+        on line 71:2 of app/assets/stylesheets/lotto.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:71
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:57:16 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms | Allocations: 4068)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected 1 selector or at-rule, was ".onemore button: ho"
+        on line 71:2 of app/assets/stylesheets/lotto.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lotto.scss:71
+app/views/layouts/application.html.erb:8
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:57:27 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 80.9ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 94ms (Views: 89.2ms | ActiveRecord: 0.0ms | Allocations: 4094)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:58:43 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 22.9ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 145ms (Views: 144.6ms | ActiveRecord: 0.0ms | Allocations: 11603)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:59:12 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 119ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 12023)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 02:59:44 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 12028)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 03:00:07 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.0ms | Allocations: 11623)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 03:00:23 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 67.4ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 171ms (Views: 169.8ms | ActiveRecord: 0.0ms | Allocations: 12024)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 03:03:03 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 03:04:08 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 142ms (Views: 140.8ms | ActiveRecord: 0.0ms | Allocations: 13254)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 03:06:24 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 307)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 5238)
+
+
+Started GET "/" for 172.17.0.1 at 2021-04-12 05:15:28 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.7ms | Allocations: 308)
+Completed 200 OK in 106ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 2010)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:15:32 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 318ms (Views: 316.4ms | ActiveRecord: 0.0ms | Allocations: 21050)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:15:53 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 140ms (Views: 130.8ms | ActiveRecord: 0.0ms | Allocations: 11652)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:17:14 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 225ms (Views: 150.1ms | ActiveRecord: 0.0ms | Allocations: 12068)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:18:47 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 27)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116ms (Views: 111.0ms | ActiveRecord: 0.0ms | Allocations: 12470)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:19:07 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.0ms | Allocations: 12518)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:19:50 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 31.8ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms | Allocations: 11631)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:20:25 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 12030)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:21:05 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms | Allocations: 13362)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:21:12 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms | Allocations: 12062)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:22:09 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms | Allocations: 13391)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:23:19 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 102ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 5264)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:24:05 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 110ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:25:01 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.0ms | Allocations: 12480)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:25:51 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 12047)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:26:26 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 99ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:26:40 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 11632)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:27:09 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 309)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 41.3ms | ActiveRecord: 0.0ms | Allocations: 5236)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:27:27 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 146ms (Views: 69.2ms | ActiveRecord: 0.0ms | Allocations: 12043)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:27:50 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms | Allocations: 12055)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:28:07 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms | Allocations: 12018)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:28:28 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms | Allocations: 13311)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:29:02 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms | Allocations: 12494)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:29:43 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 89.3ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms | Allocations: 4099)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:31:36 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms | Allocations: 11643)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:34:59 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 158ms (Views: 157.2ms | ActiveRecord: 0.0ms | Allocations: 13370)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:35:26 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 144ms (Views: 113.9ms | ActiveRecord: 0.0ms | Allocations: 12518)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:36:10 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 12054)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:38:08 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 12919)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:39:06 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 120ms (Views: 44.7ms | ActiveRecord: 0.0ms | Allocations: 12447)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:39:26 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 94ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 12889)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:40:20 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms | Allocations: 14253)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:41:21 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 12524)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:42:53 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 12519)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:43:01 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 12927)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:44:41 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 11660)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:47:17 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 88.8ms | ActiveRecord: 0.0ms | Allocations: 12980)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:49:05 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms | Allocations: 12915)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:49:23 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms | Allocations: 12913)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:49:33 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms | Allocations: 12906)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:51:02 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 12101)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:51:15 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:51:54 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms | Allocations: 12878)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:52:19 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.0ms | Allocations: 12571)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:52:35 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 77.4ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 133ms (Views: 132.5ms | ActiveRecord: 0.0ms | Allocations: 12972)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 05:59:48 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 316)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5264)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:00:06 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 5252)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:03:42 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5257)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:03:47 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5237)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:05:53 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 5262)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:06:04 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 52.1ms | Allocations: 315)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:06:45 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 310)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 5239)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:06:49 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.0ms | Allocations: 4063)
+
+
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:10:07 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 312)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 5248)
+
+
+Started GET "/images/coinbackground.jpg" for 172.17.0.1 at 2021-04-12 06:10:07 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/images/coinbackground.jpg"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:10:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 309)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms | Allocations: 5269)
+
+
+Started GET "/images/coinbackground.jpg" for 172.17.0.1 at 2021-04-12 06:10:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/images/coinbackground.jpg"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:11:01 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms | Allocations: 5708)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected "}", was ""
+        on line 114:2 of app/assets/stylesheets/lotto.scss
+>> }
+
+   -^
+):
+    2: <html>
+    3: 	<head>
+    4: 		<title>GoormRailsApp</title>
+    5: 		<%= csrf_meta_tags %> <%= csp_meta_tag %> <%= stylesheet_link_tag 'application', media:
+    6: 		'all', 'data-turbolinks-track': 'reload' %> <%= javascript_pack_tag 'application',
+    7: 		'data-turbolinks-track': 'reload' %>
+    8: 		<link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+  
+app/assets/stylesheets/lotto.scss:114
+app/views/layouts/application.html.erb:5
+Started GET "/gogo" for 172.17.0.1 at 2021-04-12 06:11:15 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LottoController#index as HTML
+  Rendering lotto/index.html.erb within layouts/application
+  Rendered lotto/index.html.erb within layouts/application (Duration: 40.6ms | Allocations: 26)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 139ms (Views: 138.2ms | ActiveRecord: 0.0ms | Allocations: 13009)
+
+
+Started GET "/images/coinbackground.jpg" for 172.17.0.1 at 2021-04-12 06:11:15 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/images/coinbackground.jpg"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
